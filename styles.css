@@ -199,10 +199,11 @@ header {
 
 .work-cards {
     height: 300px;
-    width: 400px;
+    width: 500px;
     /* background-color: aqua; */
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin-top: 50px;
 }
 
@@ -297,10 +298,13 @@ header {
 #socials {
     min-height: 200px;
     height: 200px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    font: lustria;
+    padding: 50px;
 }
 
 #socials-text {
@@ -329,7 +333,7 @@ header {
 }
 
 #social-icons-container {
-    transform: scale(0.8);
+    margin-left: auto;
 }
 
 #social-icons-container div {
