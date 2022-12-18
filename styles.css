@@ -4,13 +4,13 @@
     src: url(fonts/Lustria-Regular.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: moonTime;
     src: url(fonts/MoonTime.ttf);
 }
 
 /* General */
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -18,7 +18,7 @@
 }
 
 /* Header  and Navbar */
-header{
+header {
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
@@ -28,20 +28,20 @@ header{
 }
 
 /* Nav Items */
-.listItem{
+.listItem {
     display: inline-block;
     font-size: 12px;
     text-transform: uppercase;
     margin: 0px 10px 0px 10px;
 }
 
-.listItem a{
+.listItem a {
     text-decoration: none;
     color: black;
     position: relative;
 }
 
-.listItem a::after{
+.listItem a::after {
     content: '';
     display: inline-block;
     width: 0px;
@@ -53,13 +53,13 @@ header{
     transition: all 0.2s;
 }
 
-.listItem:hover a::after{
+.listItem:hover a::after {
     width: 100%;
     left: 0px;
 }
 
 /* All Sections */
-.sections{
+.sections {
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -71,26 +71,26 @@ header{
 }
 
 /* Main */
-#main{
+#main {
     min-height: 90vh;
     height: 90vh;
 }
 
 /* Profile Img */
-#profile-img{
+#profile-img {
     height: 80vh;
     width: 200px;
-    background-image: url(images/20220724_124711.jpeg);
+    background-image: url(images/IMG_4898.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.sideText{
+.sideText {
     transform: rotate(-90deg);
 }
 
-#nameText{
+#nameText {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -101,49 +101,49 @@ header{
 }
 
 /* About */
-#about{
+#about {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
-.headings{
+.headings {
     position: absolute;
     top: 40px;
     left: 10%;
     font-size: 20px;
 }
 
-.numbers{
+.numbers {
     position: absolute;
     top: 40px;
     right: 10%;
     font-size: 20px;
 }
 
-#aboutBackText{
+#aboutBackText {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-size: 200px;
     color: rgba(98, 98, 98, 0.193);
     font-family: moonTime;
 }
 
-#aboutText{
+#aboutText {
     font-size: 20px;
     width: 50vw;
 }
 
 /* Education */
-#education{
+#education {
     justify-content: space-around;
     padding: 100px;
 }
 
-.eduCards{
+.eduCards {
     width: 200px;
     height: 300px;
     /* background-color: aqua; */
@@ -153,11 +153,11 @@ header{
     justify-content: center;
 }
 
-.eduCards *{
+.eduCards * {
     flex-grow: 1;
 }
 
-.eduCards-1{
+.eduCards-1 {
     position: relative;
     display: flex;
     align-items: center;
@@ -165,39 +165,39 @@ header{
     min-height: 100px;
 }
 
-.eduCards-1-front{
+.eduCards-1-front {
     font-size: 50px;
     font-family: moonTime;
 }
 
-.eduCards-1-back{
+.eduCards-1-back {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-size: 100px;
     color: rgba(98, 98, 98, 0.193);
 }
 
-.eduCards-2{
+.eduCards-2 {
     height: 2px;
     width: 50px;
     background-color: black;
     flex-grow: 0;
 }
 
-.eduCards-3{
+.eduCards-3 {
     padding: 20px;
     font-size: 14px;
 }
 
 /* Work */
-#work{
+#work {
     padding: 100px;
     justify-content: space-around;
 }
 
-.work-cards{
+.work-cards {
     height: 300px;
     width: 400px;
     /* background-color: aqua; */
@@ -206,27 +206,29 @@ header{
     margin-top: 50px;
 }
 
-.work-cards-img{
+.work-cards-img {
     width: 200px;
     height: 300px;
     background-size: cover;
 }
 
-#work-card-img1{
+#work-card-img1 {
     background-image: url(images/pexels-picjumbocom-196645.jpeg);
 }
 
-#work-card-img2{
+#work-card-img2 {
     background-image: url(images/pexels-tranmautritam-251225.jpeg);
 }
-#work-card-img3{
+
+#work-card-img3 {
     background-image: url(images/pexels-walksnap-5108086.jpeg);
 }
-#work-card-img4{
+
+#work-card-img4 {
     background-image: url(images/pexels-mikechie-esparagoza-1601773.jpeg);
 }
 
-.work-cards-text{
+.work-cards-text {
     width: 200px;
     height: 300px;
     display: flex;
@@ -236,14 +238,14 @@ header{
 }
 
 /* Contact */
-#contact{
+#contact {
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color:#171515;
+    background-color: #171515;
     color: white;
 }
 
-#contact-img{
+#contact-img {
     width: 60vw;
     height: 100vh;
     background-image: url(images/pexels-lee-campbell-115655.jpeg);
@@ -251,7 +253,7 @@ header{
     background-size: cover;
 }
 
-#contact-container{
+#contact-container {
     width: 39vw;
     height: 100vh;
     display: flex;
@@ -264,7 +266,7 @@ header{
 
 #contact-form input,
 #contact-form label,
-#contact-form textarea{
+#contact-form textarea {
     display: block;
     margin-bottom: 10px;
     width: 100%;
@@ -275,24 +277,24 @@ header{
 }
 
 #contact-form input,
-#contact-form textarea{
+#contact-form textarea {
     padding: 7px 0px;
     border-bottom: solid white 0.1px;
 }
 
 #contact-form input:focus,
-#contact-form textarea:focus{
+#contact-form textarea:focus {
     outline: none;
 }
 
-#form-submit{
+#form-submit {
     width: 100px;
     padding: 10px;
     margin-top: 10px;
 }
 
 /* socials */
-#socials{
+#socials {
     min-height: 200px;
     height: 200px;
     display: flex;
@@ -301,13 +303,13 @@ header{
     justify-content: space-around;
 }
 
-#socials-text{
+#socials-text {
     color: black;
     display: inline-block;
     font-size: 30px;
 }
 
-#socials-text-des{
+#socials-text-des {
     margin-top: 20px;
 }
 
@@ -315,7 +317,7 @@ header{
 #social-icon1,
 #social-icon2,
 #social-icon3,
-#social-icon4{
+#social-icon4 {
     height: 30px;
     width: 30px;
     border-radius: 20%;
@@ -326,38 +328,38 @@ header{
     overflow: hidden;
 }
 
-#social-icons-container{
-   transform: scale(0.8); 
+#social-icons-container {
+    transform: scale(0.8);
 }
 
-#social-icons-container div{
+#social-icons-container div {
     display: inline-block;
 }
 
-#social-icons-container img{
+#social-icons-container img {
     height: 20px;
     width: 20px;
     margin: 5px 0px 0px 5px;
     z-index: 1;
 }
 
-#social-icon1{
+#social-icon1 {
     background-color: #E1306C;
 }
 
-#social-icon2{
+#social-icon2 {
     background-color: #1D9BF0;
 }
 
-#social-icon3{
+#social-icon3 {
     background-color: #0A66C2;
 }
 
-#social-icon4{
+#social-icon4 {
     background-color: #171515;
 }
 
-#social-icon2 img{
+#social-icon2 img {
     height: 18px;
     margin: 7px 0px 0px 5px;
 }
@@ -365,7 +367,7 @@ header{
 #social-icon1::after,
 #social-icon2::after,
 #social-icon3::after,
-#social-icon4::after{
+#social-icon4::after {
     content: '';
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.307);
@@ -375,14 +377,14 @@ header{
     position: absolute;
     top: 100%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     transition: all 0.2s;
 }
 
 .social-icons:hover #social-icon1::after,
 .social-icons:hover #social-icon2::after,
 .social-icons:hover #social-icon3::after,
-.social-icons:hover #social-icon4::after{
+.social-icons:hover #social-icon4::after {
     height: 100px;
     width: 100px;
 }
@@ -392,13 +394,13 @@ header{
     bottom: 14px;
     right: 14px;
     padding: 10px 14px;
-    background: rgba(0,0,0,.3);
+    background: rgba(0, 0, 0, .3);
     border-radius: 5px;
     text-decoration: none;
     color: aliceblue;
 }
 
-.top:hover{
+.top:hover {
     text-decoration: none;
-      background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
 }
